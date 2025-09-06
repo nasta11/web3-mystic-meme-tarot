@@ -29,7 +29,7 @@
 - **The Bridge 🌉** — переход, объединение миров.  
 - **The Contract 📜🤝** — соглашение, связывающая сила кода.  
 - **The Merge ♾️** — союз, объединение противоположностей.  
-- **The Transaction 💱** — обмен, связь, энергетический поток.  
+- **The Seed 💱** — обмен, связь, энергетический поток.  
 
 ---
 
@@ -62,9 +62,9 @@
 |---|---|---|---|
 | ![The Commit](images/coder/the-commit.jpg) | ![The Seed](images/coder/the-seed.jpg) | ![The Hash](images/coder/the-hash.jpg) | ![The Bridge](images/coder/the-bridge.jpg) |
 
-| The Contract | The Merge | The Transaction |
+| The Contract | The Merge | The Seed |
 |---|---|---|
-| ![The Contract](images/coder/the-contract.jpg) | ![The Merge](images/coder/the-merge.jpg) | ![The Transaction](images/coder/the-transaction.jpg) |
+| ![The Contract](images/coder/the-contract.jpg) | ![The Merge](images/coder/the-merge.jpg) | ![The Seed](images/coder/the-seed.jpg) |
 
 ---
 

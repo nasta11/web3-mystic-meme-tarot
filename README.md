@@ -1,131 +1,82 @@
-# 🃏 Web3 Mystic Meme Tarot
+# 🌌 Web3 Mystic Meme Tarot 🃏✨
 
-Колода из 21 карты, объединяющая **мистику Таро**, **архетипы Web3** и **мемную культуру**.  
-Каждая карта имеет: название (EN + RU), промпт для генерации изображения и философское значение.  
+Колода таро в стиле **Web3 + мемов**.  
+Это экспериментальный арт-проект, где древние архетипы встречаются с мемами, криптокультурой и философией блокчейна.  
 
----
+## 🪄 Карты
 
-## 🪄 Мистические архетипы
+### 🔥 Мемные архетипы:
+- **The Rug 🪄🧶** — внезапная потеря, иллюзия доверия, предупреждение о рисках.  
+- **The Ape 🦍** — безрассудное погружение, сила инстинкта, YOLO.  
+- **The Bug 🐛** — ошибки, скрытые уязвимости, хаос кода.  
+- **The GM 🌅** — новые начала, энергия комьюнити, позитивный ритуал.  
+- **The WAGMI ✨** — сила единства, вера в будущее, общая победа.  
+- **The NGMI 🌑** — разочарование, слабость веры, «paper hands».  
+- **The Meme 🐸** — хаос и истина мемов, коллективное бессознательное.  
 
-### 1. The Wallet — Кошелёк
-**Prompt:**  
-A tarot card illustration titled "The Wallet". A hooded mystical guardian holds a giant glowing key with blockchain symbols. The background is filled with stars, cryptographic runes, and an ethereal gateway. Style: dark mysticism, golden highlights, ornate border.  
-**Философия:** хранитель доступа, твой проводник в Web3. Символ доверия и тайны.  
+### 🌙 Мистические архетипы:
+- **The Wallet 🔑** — хранитель и проводник в Web3.  
+- **The Gas 🔥** — энергия сети, цена движения, жертва ради активации.  
+- **The Fork ⚡** — выбор пути, раздвоение сетей, параллельные вселенные.  
+- **The Oracle 🔮** — знание, истина, пророчество данных.  
+- **The Validator ⚖️** — защита, проверка, истина.  
+- **The Miner ⛏️** — труд, добыча, усилия ради ценности.  
+- **The Token 🪙** — символ ценности, обмена и энергии.  
 
-### 2. The Gas — Газ
-**Prompt:**  
-A tarot card illustration titled "The Gas". Ethereal flames rise from a digital altar, forming the word "GAS" with glowing numbers and Ethereum logos. Neon smoke and mystical glyphs fill the scene. Style: mystical yet chaotic.  
-**Философия:** цена движения, энергия сети, жертва для активации.  
-
-### 3. The Fork — Форк
-**Prompt:**  
-A tarot card illustration titled "The Fork". A cloaked figure stands at a cosmic crossroad: to the left a glowing blue blockchain, to the right a red burning chain. Style: mystical, symbolic.  
-**Философия:** выбор, разделение пути, поиск нового направления.  
-
-### 4. The Merge — Слияние
-**Prompt:**  
-A tarot card illustration titled "The Merge". Two faces (one human, one trickster) merge into one, surrounded by infinity symbols and neon cosmic threads. Style: surreal, mystical, neon.  
-**Философия:** объединение, синтез, переход к новому уровню.  
-
-### 5. The Bridge — Мост
-**Prompt:**  
-A tarot card illustration titled "The Bridge". A neon bridge stretches across cosmic void, with figures carrying tokens across. A troll lurks below, glowing runes on the arch. Style: cyber-mystical.  
-**Философия:** соединение миров, переход между блокчейнами, риск перехода.  
-
-### 6. The Contract — Контракт
-**Prompt:**  
-A tarot card illustration titled "The Contract". Two hooded figures shake hands in front of a glowing smart contract scroll, with blockchain runes floating around. Style: solemn, mystical, glowing parchment.  
-**Философия:** соглашение, обещание, закон кода.  
-
-### 7. The Commit — Коммит
-**Prompt:**  
-A tarot card illustration titled "The Commit". A hooded coder touches a glowing cube with <code> symbols. Around float mystical runes and code fragments. Style: dark mysticism with glowing code.  
-**Философия:** акт создания, вклад в вечность блокчейна.  
+### 👨‍💻 Кодерские архетипы:
+- **The Commit 📜** — акт сотворения, код как заклинание.  
+- **The Seed 🌱** — зарождение, рост, потенциал.  
+- **The Hash ⛓️** — неизменность, отпечаток истины.  
+- **The Bridge 🌉** — переход, объединение миров.  
+- **The Contract 📜🤝** — соглашение, связывающая сила кода.  
+- **The Merge ♾️** — союз, объединение противоположностей.  
+- **The Transaction 💱** — обмен, связь, энергетический поток.  
 
 ---
 
-## 💻 Кодерские архетипы
+## 🎴 Галерея
 
-### 8. The Seed — Семя
-**Prompt:**  
-A tarot card illustration titled "The Seed". A glowing seed sprouts into a vine with pixelated flowers (rocket, diamond, emoji). Background: cosmic soil of code and faces. Style: neon mysticism.  
-**Философия:** зарождение идеи, стартап, энергия начала.  
+### 🐸 Мемные (7)
+| The Meme | The Rug | The Ape | The Bug |
+|---|---|---|---|
+| ![The Meme](images/meme/the-meme.jpg) | ![The Rug](images/meme/the-rug.jpg) | ![The Ape](images/meme/the-ape.jpg) | ![The Bug](images/meme/the-bug.jpg) |
 
-### 9. The Hash — Хэш
-**Prompt:**  
-A tarot card illustration titled "The Hash". A cube covered in cryptographic runes floats in binary rain. Pepe-like faces flicker on its sides. Style: matrix mysticism.  
-**Философия:** уникальность, неподвижность, цифровая печать судьбы.  
-
-### 10. The Block — Блок
-**Prompt:**  
-A tarot card illustration titled "The Block". A massive glowing block floats in the void, chains attached to its sides. Background: runic inscriptions, code fragments. Style: solemn, monumental.  
-**Философия:** основа системы, часть большего, фундамент.  
-
-### 11. The Transaction — Транзакция
-**Prompt:**  
-A tarot card illustration titled "The Transaction". A glowing coin passes between two spectral hands, trails of light form a ledger. Symbols: ✅ and ❌ hovering above. Style: mystical accounting.  
-**Философия:** обмен, связь, невидимая линия между участниками.  
-
-### 12. The Seed Phrase — Сид-фраза
-**Prompt:**  
-A tarot card illustration titled "The Seed Phrase". A hooded sage whispers glowing 12 words floating in air, cosmic symbols around. Style: mystic scroll, glowing words.  
-**Философия:** ключ к личности, хранение души, священная память.  
-
-### 13. The Validator — Валидатор
-**Prompt:**  
-A tarot card illustration titled "The Validator". A knight-like figure in digital armor raises a glowing shield with ✓ symbol. Behind him — chains of light. Style: guardian mysticism.  
-**Философия:** защита, проверка, истина.  
-
-### 14. The Node — Нода
-**Prompt:**  
-A tarot card illustration titled "The Node". A glowing tree with many branches, each node is a light, forming a network across the stars. Style: cosmic fractal.  
-**Философия:** распределение, участие, связь со вселенной.  
+| The GM | The WAGMI | The NGMI |
+|---|---|---|
+| ![The GM](images/meme/the-gm.jpg) | ![The WAGMI](images/meme/the-wagmi.jpg) | ![The NGMI](images/meme/the-ngmi.jpg) |
 
 ---
 
-## 🎭 Мемные архетипы
+### 🔮 Мистические (7)
+| The Wallet | The Gas | The Fork | The Oracle |
+|---|---|---|---|
+| ![The Wallet](images/mystic/the-wallet.jpg) | ![The Gas](images/mystic/the-gas.jpg) | ![The Fork](images/mystic/the-fork.jpg) | ![The Oracle](images/mystic/the-oracle.jpg) |
 
-### 15. The Meme — Мем 🐸
-**Prompt:**  
-A tarot card illustration titled "The Meme". A frog-like meme deity with glitchy neon eyes holds a glowing web of memes. Surrounding it are emojis (😂 🚀 💎🙌), Pepe distortions, ASCII text (“gm”, “wagmi”, “lol”). Style: vaporwave chaos.  
-**Философия:** коллективное бессознательное, сила хаоса и вирусности.  
-
-### 16. The Rug — Рагпул 🪄
-**Prompt:**  
-A tarot card illustration titled "The Rug". A glowing red carpet is pulled into the void, with falling figures (Pepe, Wojak, Trollface). Above: “rekt”, “rugpull”, “lol”. Style: chaotic neon tragedy.  
-**Философия:** внезапный крах, обман, утрата доверия.  
-
-### 17. The Ape — Эйп 🦍
-**Prompt:**  
-A tarot card illustration titled "The Ape". A neon gorilla leaps into a pit of glowing coins holding Ethereum. Around: 🚀 emojis, “APE IN”, “YOLO”. Style: neon jungle mysticism.  
-**Философия:** безрассудная смелость, импульсивность, сила толпы.  
-
-### 18. The Bug — Баг 🐛
-**Prompt:**  
-A tarot card illustration titled "The Bug". A giant glitchy insect with Pepe faces crawls over glowing code scroll. Above: “ERROR 404”, “rekt”. Style: glitch mysticism.  
-**Философия:** скрытые уязвимости, разрушение, ирония хаоса.  
-
-### 19. The GM — Доброе Утро 🌅
-**Prompt:**  
-A tarot card illustration titled "The GM". A radiant figure raises its hand with glowing “gm”. Surrounding emojis: 😂 🚀 🙌. Style: sunrise mysticism.  
-**Философия:** новые начала, ритуалы комьюнити, сила позитивных слов.  
-
-### 20. The WAGMI — Мы Все Сделаем Это ✨
-**Prompt:**  
-A tarot card illustration titled "The WAGMI". Pepe, Doge, and Wojak hold a glowing “WAGMI” banner as the blockchain sun rises. Style: neon unity mysticism.  
-**Философия:** коллективная вера, победа, сила единства.  
-
-### 21. The NGMI — Мы Не Сделаем Это 🌑
-**Prompt:**  
-A tarot card illustration titled "The NGMI". A sad figure holds a broken token, background filled with falling charts and “rekt / paper hands”. Style: dark neon despair.  
-**Философия:** отчаяние, крах надежд, тёмная сторона веры.  
+| The Validator | The Miner | The Token |
+|---|---|---|
+| ![The Validator](images/mystic/the-validator.jpg) | ![The Miner](images/mystic/the-miner.jpg) | ![The Token](images/mystic/the-token.jpg) |
 
 ---
 
-## 📖 Использование
-Эта колода может быть использована для:  
-- 🎴 Медитативных практик  
-- 🎭 Мемного гадания  
-- 🛠️ Web3-приложений и NFT-проектов  
-- 🌀 Поиска смысла в хаосе блокчейна  
+### 👨‍💻 Кодерские (7)
+| The Commit | The Seed | The Hash | The Bridge |
+|---|---|---|---|
+| ![The Commit](images/coder/the-commit.jpg) | ![The Seed](images/coder/the-seed.jpg) | ![The Hash](images/coder/the-hash.jpg) | ![The Bridge](images/coder/the-bridge.jpg) |
 
+| The Contract | The Merge | The Transaction |
+|---|---|---|
+| ![The Contract](images/coder/the-contract.jpg) | ![The Merge](images/coder/the-merge.jpg) | ![The Transaction](images/coder/the-transaction.jpg) |
+
+---
+
+## 🚀 Планы  
+
+- Добавить все 22 карты старших арканов Web3.  
+- Сделать интерактивный сайт с функцией «вытянуть карту».  
+- Развернуть dApp для NFT-версии колоды.  
+
+---
+
+## 📜 Лицензия  
+
+Проект открыт для вдохновения и комьюнити. Используй свободно, но указывай источник 🙌  

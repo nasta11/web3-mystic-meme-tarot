@@ -1,14 +1,13 @@
 # Web3 Mystic Meme Tarot
 
-Колода из **21 карты**, объединяющая крипто-мистицизм, мемы и кодерскую магию.  
+Колода из 21 карты, объединяющая крипто-мистицизм, мемы и кодерскую магию.  
 Три масти по 7 карт: **Meme**, **Mystic**, **Coder**.
 
 ---
 
 ## 🖼 Галерея
 
-> Все изображения лежат в `images/<масть>/*.jpg`.  
-> Если какой-то файл не отображается, проверь имя и путь.
+> Картинки лежат в `images/<масть>/*.jpg`.
 
 ---
 
@@ -16,13 +15,13 @@
 
 | Карта | Превью |
 |---|---|
-| **The Meme** | ![The Meme](images/meme/meme.jpg) |
-| **The Rug** | ![The Rug](images/meme/rug.jpg) |
-| **The Ape** | ![The Ape](images/meme/ape.jpg) |
-| **The Bug** | ![The Bug](images/meme/bug.jpg) |
-| **The GM** | ![The GM](images/meme/gm.jpg) |
-| **The WAGMI** | ![The WAGMI](images/meme/wagmi.jpg) |
-| **The NGMI** | ![The NGMI](images/meme/ngmi.jpg) |
+| **The Meme** | <img src="images/meme/the-meme.jpg" alt="The Meme" width="200"> |
+| **The Rug** | <img src="images/meme/the-rug.jpg" alt="The Rug" width="200"> |
+| **The Ape** | <img src="images/meme/the-ape.jpg" alt="The Ape" width="200"> |
+| **The Bug** | <img src="images/meme/the-bug.jpg" alt="The Bug" width="200"> |
+| **The GM** | <img src="images/meme/the-gm.jpg" alt="The GM" width="200"> |
+| **The WAGMI** | <img src="images/meme/the-wagmi.jpg" alt="The WAGMI" width="200"> |
+| **The NGMI** | <img src="images/meme/the-ngmi.jpg" alt="The NGMI" width="200"> |
 
 ---
 
@@ -30,13 +29,13 @@
 
 | Карта | Превью |
 |---|---|
-| **The Wallet** | ![The Wallet](images/mystic/wallet.jpg) |
-| **The Validator** | ![The Validator](images/mystic/validator.jpg) |
-| **The Gas** | ![The Gas](images/mystic/gas.jpg) |
-| **The Fork** | ![The Fork](images/mystic/fork.jpg) |
-| **The Miner** | ![The Miner](images/mystic/miner.jpg) |
-| **The Token** | ![The Token](images/mystic/token.jpg) |
-| **The Oracle** | ![The Oracle](images/mystic/oracle.jpg) |
+| **The Wallet** | <img src="images/mystic/the-wallet.jpg" alt="The Wallet" width="200"> |
+| **The Validator** | <img src="images/mystic/the-validator.jpg" alt="The Validator" width="200"> |
+| **The Gas** | <img src="images/mystic/the-gas.jpg" alt="The Gas" width="200"> |
+| **The Fork** | <img src="images/mystic/the-fork.jpg" alt="The Fork" width="200"> |
+| **The Miner** | <img src="images/mystic/the-miner.jpg" alt="The Miner" width="200"> |
+| **The Token** | <img src="images/mystic/the-token.jpg" alt="The Token" width="200"> |
+| **The Oracle** | <img src="images/mystic/the-oracle.jpg" alt="The Oracle" width="200"> |
 
 ---
 
@@ -44,18 +43,16 @@
 
 | Карта | Превью |
 |---|---|
-| **The Commit** | ![The Commit](images/coder/commit.jpg) |
-| **The Seed** | ![The Seed](images/coder/seed.jpg) |
-| **The Hash** | ![The Hash](images/coder/hash.jpg) |
-| **The Bridge** | ![The Bridge](images/coder/bridge.jpg) |
-| **The Contract** | ![The Contract](images/coder/contract.jpg) |
-| **The Merge** | ![The Merge](images/coder/merge.jpg) |
-| **The Seed Phrase** | ![The Seed Phrase](images/coder/seed-phrase.jpg) |
+| **The Commit** | <img src="images/coder/the-commit.jpg" alt="The Commit" width="200"> |
+| **The Seed** | <img src="images/coder/the-seed.jpg" alt="The Seed" width="200"> |
+| **The Hash** | <img src="images/coder/the-hash.jpg" alt="The Hash" width="200"> |
+| **The Bridge** | <img src="images/coder/the-bridge.jpg" alt="The Bridge" width="200"> |
+| **The Contract** | <img src="images/coder/the-contract.jpg" alt="The Contract" width="200"> |
+| **The Merge** | <img src="images/coder/the-merge.jpg" alt="The Merge" width="200"> |
+| **The Seed Phrase** | <img src="images/coder/the-seed-phrase.jpg" alt="The Seed Phrase" width="200"> |
 
 ---
 
 ## 📦 Структура репозитория
-
-
 
 

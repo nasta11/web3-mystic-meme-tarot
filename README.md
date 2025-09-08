@@ -1,36 +1,40 @@
+> Updated: 2025-09-08T12:31:30Z
+
 # Web3 Mystic Meme Tarot
 
-Колода из 21 карты: три масти по 7 — **Meme**, **Mystic**, **Coder**.
-
 ## 🐸 Meme (7)
+
 | Карта | Превью |
 |---|---|
-| **The Meme** | <img src="images/meme/the-meme.jpg" width="200"> |
-| **The Ape** | <img src="images/meme/the-ape.jpg" width="200"> |
-| **The Bug** | <img src="images/meme/the-bug.jpg" width="200"> |
-| **The Rug** | <img src="images/meme/the-rug.jpg" width="200"> |
-| **The GM** | <img src="images/meme/the-gm.jpg" width="200"> |
-| **The NGMI** | <img src="images/meme/the-ngmi.jpg" width="200"> |
-| **The WAGMI** | <img src="images/meme/the-wagmi.jpg" width="200"> |
+| **Ape** | <img src="images/meme/ape.jpg" width="200"> |
+| **Bug** | <img src="images/meme/bug.jpg" width="200"> |
+| **Gm** | <img src="images/meme/gm.jpg" width="200"> |
+| **Meme** | <img src="images/meme/meme.jpg" width="200"> |
+| **Ngmi** | <img src="images/meme/ngmi.jpg" width="200"> |
+| **Rug** | <img src="images/meme/rug.jpg" width="200"> |
+| **Wagmi** | <img src="images/meme/wagmi.jpg" width="200"> |
 
 ## 🔮 Mystic (7)
+
 | Карта | Превью |
 |---|---|
-| **The Wallet** | <img src="images/mystic/the-wallet.jpg" width="200"> |
-| **The Merge** | <img src="images/mystic/the-merge.jpg" width="200"> |
-| **The Validator** | <img src="images/mystic/the-validator.jpg" width="200"> |
-| **The Gas** | <img src="images/mystic/the-gas.jpg" width="200"> |
-| **The Fork** | <img src="images/mystic/the-fork.jpg" width="200"> |
-| **The Miner** | <img src="images/mystic/the-miner.jpg" width="200"> |
-| **The Token** | <img src="images/mystic/the-token.jpg" width="200"> |
+| **Bridge** | <img src="images/mystic/bridge.jpg" width="200"> |
+| **Commit** | <img src="images/mystic/commit.jpg" width="200"> |
+| **Contract** | <img src="images/mystic/contract.jpg" width="200"> |
+| **Hash** | <img src="images/mystic/hash.jpg" width="200"> |
+| **Merge** | <img src="images/mystic/merge.jpg" width="200"> |
+| **Seed Phrase** | <img src="images/mystic/seed-phrase.jpg" width="200"> |
+| **Seed** | <img src="images/mystic/seed.jpg" width="200"> |
 
 ## 👩‍💻 Coder (7)
+
 | Карта | Превью |
 |---|---|
-| **The Commit** | <img src="images/coder/the-commit.jpg" width="200"> |
-| **The Seed** | <img src="images/coder/the-seed.jpg" width="200"> |
-| **The Hash** | <img src="images/coder/the-hash.jpg" width="200"> |
-| **The Bridge** | <img src="images/coder/the-bridge.jpg" width="200"> |
-| **The Contract** | <img src="images/coder/the-contract.jpg" width="200"> |
-| **The Merge** | <img src="images/coder/the-merge.jpg" width="200"> |
-| **The Seed Phrase** | <img src="images/coder/the-seed-phrase.jpg" width="200"> |
+| **Fork** | <img src="images/coder/fork.jpg" width="200"> |
+| **Gas** | <img src="images/coder/gas.jpg" width="200"> |
+| **Minerr** | <img src="images/coder/minerr.jpg" width="200"> |
+| **Oracle** | <img src="images/coder/oracle.jpg" width="200"> |
+| **Token** | <img src="images/coder/token.jpg" width="200"> |
+| **Validator** | <img src="images/coder/validator.jpg" width="200"> |
+| **Wallet** | <img src="images/coder/wallet.jpg" width="200"> |
+

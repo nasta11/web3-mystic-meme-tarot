@@ -44,6 +44,3 @@
 | **The Contract** | <img src="images/coder/the-contract.jpg" width="200"> |
 | **The Merge** | <img src="images/coder/the-merge.jpg" width="200"> |
 | **The Seed Phrase** | <img src="images/coder/the-seed-phrase.jpg" width="200"> |
-
-
-

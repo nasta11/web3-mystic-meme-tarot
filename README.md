@@ -1,73 +1,36 @@
-> Updated: 2025-09-08T07:28:56Z
+# Web3 Mystic Meme Tarot
 
-# Web3 Witch — Tarot Deck
+Колода из 21 карты: три масти по 7 — **Meme**, **Mystic**, **Coder**.
 
-Картинки берутся из `images/witch/`.
+## 🐸 Meme (7)
+| Карта | Превью |
+|---|---|
+| **The Meme** | <img src="images/meme/the-meme.jpg" width="200"> |
+| **The Ape** | <img src="images/meme/the-ape.jpg" width="200"> |
+| **The Bug** | <img src="images/meme/the-bug.jpg" width="200"> |
+| **The Rug** | <img src="images/meme/the-rug.jpg" width="200"> |
+| **The GM** | <img src="images/meme/the-gm.jpg" width="200"> |
+| **The NGMI** | <img src="images/meme/the-ngmi.jpg" width="200"> |
+| **The WAGMI** | <img src="images/meme/the-wagmi.jpg" width="200"> |
 
-## Галерея
+## 🔮 Mystic (7)
+| Карта | Превью |
+|---|---|
+| **The Wallet** | <img src="images/mystic/the-wallet.jpg" width="200"> |
+| **The Merge** | <img src="images/mystic/the-merge.jpg" width="200"> |
+| **The Validator** | <img src="images/mystic/the-validator.jpg" width="200"> |
+| **The Gas** | <img src="images/mystic/the-gas.jpg" width="200"> |
+| **The Fork** | <img src="images/mystic/the-fork.jpg" width="200"> |
+| **The Miner** | <img src="images/mystic/the-miner.jpg" width="200"> |
+| **The Token** | <img src="images/mystic/the-token.jpg" width="200"> |
 
-<p align="center">
-  <figure style="display:inline-block;margin:6px;text-align:center;">
-    <img src="images/witch/pure-code.jpg" width="140"><figcaption style="font-size:12px;">Pure Code</figcaption>
-  </figure>
-  <figure style="display:inline-block;margin:6px;text-align:center;">
-    <img src="images/witch/the-child.jpg" width="140"><figcaption style="font-size:12px;">The Child</figcaption>
-  </figure>
-  <figure style="display:inline-block;margin:6px;text-align:center;">
-    <img src="images/witch/the-connection.jpg" width="140"><figcaption style="font-size:12px;">The Connection</figcaption>
-  </figure>
-  <figure style="display:inline-block;margin:6px;text-align:center;">
-    <img src="images/witch/the-crown.jpg" width="140"><figcaption style="font-size:12px;">The Crown</figcaption>
-  </figure>
-  <figure style="display:inline-block;margin:6px;text-align:center;">
-    <img src="images/witch/the-dreamer.jpg" width="140"><figcaption style="font-size:12px;">The Dreamer</figcaption>
-  </figure>
-  <figure style="display:inline-block;margin:6px;text-align:center;">
-    <img src="images/witch/the-empress.jpg" width="140"><figcaption style="font-size:12px;">The Empress</figcaption>
-  </figure>
-  <figure style="display:inline-block;margin:6px;text-align:center;">
-    <img src="images/witch/the-flame.jpg" width="140"><figcaption style="font-size:12px;">The Flame</figcaption>
-  </figure>
-  <figure style="display:inline-block;margin:6px;text-align:center;">
-    <img src="images/witch/the-fracture.jpg" width="140"><figcaption style="font-size:12px;">The Fracture</figcaption>
-  </figure>
-  <figure style="display:inline-block;margin:6px;text-align:center;">
-    <img src="images/witch/the-gate.jpg" width="140"><figcaption style="font-size:12px;">The Gate</figcaption>
-  </figure>
-  <figure style="display:inline-block;margin:6px;text-align:center;">
-    <img src="images/witch/the-guardian.jpg" width="140"><figcaption style="font-size:12px;">The Guardian</figcaption>
-  </figure>
-  <figure style="display:inline-block;margin:6px;text-align:center;">
-    <img src="images/witch/the-hacker.jpg" width="140"><figcaption style="font-size:12px;">The Hacker</figcaption>
-  </figure>
-  <figure style="display:inline-block;margin:6px;text-align:center;">
-    <img src="images/witch/the-initiate.jpg" width="140"><figcaption style="font-size:12px;">The Initiate</figcaption>
-  </figure>
-  <figure style="display:inline-block;margin:6px;text-align:center;">
-    <img src="images/witch/the-machine.jpg" width="140"><figcaption style="font-size:12px;">The Machine</figcaption>
-  </figure>
-  <figure style="display:inline-block;margin:6px;text-align:center;">
-    <img src="images/witch/the-mirror.jpg" width="140"><figcaption style="font-size:12px;">The Mirror</figcaption>
-  </figure>
-  <figure style="display:inline-block;margin:6px;text-align:center;">
-    <img src="images/witch/the-moonlight.jpg" width="140"><figcaption style="font-size:12px;">The Moonlight</figcaption>
-  </figure>
-  <figure style="display:inline-block;margin:6px;text-align:center;">
-    <img src="images/witch/the-oracle.jpg" width="140"><figcaption style="font-size:12px;">The Oracle</figcaption>
-  </figure>
-  <figure style="display:inline-block;margin:6px;text-align:center;">
-    <img src="images/witch/the-pulse.jpg" width="140"><figcaption style="font-size:12px;">The Pulse</figcaption>
-  </figure>
-  <figure style="display:inline-block;margin:6px;text-align:center;">
-    <img src="images/witch/the-shadow.jpg" width="140"><figcaption style="font-size:12px;">The Shadow</figcaption>
-  </figure>
-  <figure style="display:inline-block;margin:6px;text-align:center;">
-    <img src="images/witch/the-virus.jpg" width="140"><figcaption style="font-size:12px;">The Virus</figcaption>
-  </figure>
-  <figure style="display:inline-block;margin:6px;text-align:center;">
-    <img src="images/witch/the-void.jpg" width="140"><figcaption style="font-size:12px;">The Void</figcaption>
-  </figure>
-  <figure style="display:inline-block;margin:6px;text-align:center;">
-    <img src="images/witch/the-weaver.jpg" width="140"><figcaption style="font-size:12px;">The Weaver</figcaption>
-  </figure>
-</p>
+## 👩‍💻 Coder (7)
+| Карта | Превью |
+|---|---|
+| **The Commit** | <img src="images/coder/the-commit.jpg" width="200"> |
+| **The Seed** | <img src="images/coder/the-seed.jpg" width="200"> |
+| **The Hash** | <img src="images/coder/the-hash.jpg" width="200"> |
+| **The Bridge** | <img src="images/coder/the-bridge.jpg" width="200"> |
+| **The Contract** | <img src="images/coder/the-contract.jpg" width="200"> |
+| **The Merge** | <img src="images/coder/the-merge.jpg" width="200"> |
+| **The Seed Phrase** | <img src="images/coder/the-seed-phrase.jpg" width="200"> |

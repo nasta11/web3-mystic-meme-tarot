@@ -3,7 +3,7 @@
 # Web3 Mystic Meme Tarot
 ![CI](https://github.com/nasta11/web3-mystic-meme-tarot/actions/workflows/ci.yml/badge.svg)
 ![CI](https://github.com/nasta11/web3-mystic-meme-tarot/actions/workflows/ci.yml/badge.svg)
-![License](https://img.shields.io/github/license/nasta11/web3-mystic-meme-tarot)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Stars](https://img.shields.io/github/stars/nasta11/web3-mystic-meme-tarot?style=social)
 ![Issues](https://img.shields.io/github/issues/nasta11/web3-mystic-meme-tarot)
 

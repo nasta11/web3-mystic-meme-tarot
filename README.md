@@ -3,7 +3,6 @@
 # Web3 Mystic Meme Tarot
 ![CI](https://github.com/nasta11/web3-mystic-meme-tarot/actions/workflows/ci.yml/badge.svg)
 
-## 🃏 Meme (7)
 ...
 
 ## 🐸 Meme (7)

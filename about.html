@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>О WitchWeb3</title>
+  <style>
+    body {
+      background: radial-gradient(circle at center, #0a0012, #06000a);
+      color: #d3baff;
+      text-align: center;
+      font-family: 'Orbitron', sans-serif;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+
+    h2 {
+      color: #c79bff;
+      text-shadow: 0 0 25px #b967ff;
+      margin-top: 50px;
+      font-size: 2.6em;
+      position: relative;
+      z-index: 2;
+    }
+
+    .matrix-bg {
+      position: fixed;
+      inset: 0;
+      z-index: 0;
+      overflow: hidden;
+      pointer-events: none;
+    }
+
+    .symbol {
+      position: absolute;
+      color: rgba(180, 100, 255, 0.6);
+      font-size: 22px;
+      font-weight: bold;
+      text-shadow: 0 0 10px #b967ff, 0 0 20px #7f00ff;
+      animation: floatUp linear infinite;
+      user-select: none;
+      pointer-events: none;
+    }
+
+    @keyframes floatUp {
+      0% { transform: translateY(100vh); opacity: 0; }
+      10% { opacity: 1; }
+      90% { opacity: 1; }
+      100% { transform: translateY(-10vh); opacity: 0; }
+    }
+
+    .portrait-container {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 40px auto 20px;
+      z-index: 1;
+    }
+
+    .portrait {
+      width: 380px; /* уменьшено, чтобы текст был виден */
+      max-width: 70vw;
+      height: auto;
+      border-radius: 50%;
+      box-shadow: 0 0 90px #b967ff, 0 0 160px #7f00ff;
+      animation: fadeIn 3s ease-in-out forwards, pulse 6s infinite ease-in-out;
+      opacity: 0;
+    }
+
+    .aura {
+      position: absolute;
+      top: -20%;
+      left: -20%;
+      width: 140%;
+      height: 140%;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(185,103,255,0.3), transparent 80%);
+      filter: blur(90px);
+      animation: auraGlow 6s infinite alternate;
+    }
+
+    .highlight {
+      color: #d59cff;
+      text-shadow: 0 0 10px #b967ff;
+    }
+
+    p {
+      line-height: 1.8;
+      font-size: 18px;
+      max-width: 720px;
+      margin: 15px auto;
+      position: relative;
+      z-index: 3;
+      opacity: 0;
+      animation: textFadeIn 2s ease forwards;
+      animation-delay: 1s;
+    }
+
+    .manifest {
+      font-style: italic;
+      color: #fff;
+      margin: 40px auto 0;
+      padding: 20px;
+      border-left: 3px solid #b967ff;
+      border-right: 3px solid #b967ff;
+      box-shadow: inset 0 0 25px #7f00ff;
+      background: rgba(40, 0, 60, 0.3);
+      border-radius: 20px;
+      max-width: 700px;
+      z-index: 3;
+      position: relative;
+      animation: textFadeIn 3s ease forwards;
+      animation-delay: 1.5s;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 40px;
+      padding: 15px 30px;
+      font-size: 18px;
+      color: white;
+      background: linear-gradient(90deg, #b967ff, #7f00ff);
+      border-radius: 10px;
+      text-decoration: none;
+      box-shadow: 0 0 20px #7f00ff;
+      transition: all 0.3s ease-in-out;
+      position: relative;
+      z-index: 3;
+      opacity: 0;
+      animation: textFadeIn 2s ease forwards;
+      animation-delay: 1.8s;
+    }
+
+    .btn:hover {
+      box-shadow: 0 0 40px #b967ff;
+      transform: scale(1.05);
+    }
+
+    .lang-switch {
+      position: fixed;
+      top: 20px;
+      right: 30px;
+      z-index: 100;
+      background: rgba(50, 0, 80, 0.6);
+      border: 1px solid #b967ff;
+      border-radius: 14px;
+      padding: 8px 14px;
+      font-size: 18px;
+      color: #fff;
+      text-shadow: 0 0 10px #b967ff;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+      text-decoration: none;
+    }
+
+    .lang-switch:hover {
+      background: rgba(150, 0, 255, 0.7);
+      box-shadow: 0 0 20px #b967ff;
+    }
+
+    @keyframes pulse { 
+      0% { box-shadow: 0 0 60px #b967ff; } 
+      50% { box-shadow: 0 0 120px #ff7fff; } 
+      100% { box-shadow: 0 0 60px #b967ff; } 
+    }
+
+    @keyframes auraGlow { 
+      from { opacity: 0.5; transform: scale(1); } 
+      to { opacity: 1; transform: scale(1.1); } 
+    }
+
+    @keyframes fadeIn { 
+      from { opacity: 0; transform: scale(0.9); } 
+      to { opacity: 1; transform: scale(1); } 
+    }
+
+    @keyframes textFadeIn { 
+      from { opacity: 0; transform: translateY(30px); } 
+      to { opacity: 1; transform: translateY(0); } 
+    }
+  </style>
+</head>
+<body>
+
+  <div class="matrix-bg" id="matrix-bg"></div>
+
+  <a href="about_en.html" class="lang-switch">🇬🇧 EN</a>
+
+  <h2>О WITCHWEB3</h2>
+
+  <div class="portrait-container">
+    <img src="images/witchweb3-portrait.png" alt="WitchWeb3 Portrait" class="portrait">
+    <div class="aura"></div>
+  </div>
+
+  <p>Я — <span class="highlight">дизайнер смыслов</span> в мире Web3.</p>
+  <p>Я создаю ритуалы, где код становится магией, а NFT — зеркалом души творца.</p>
+  <p>Мой путь — соединить эстетику, технологию и философию, чтобы дать новое определение реальности.</p>
+  <p><span class="highlight">WitchWeb3</span> — это портал, где каждый может оставить свой след в блокчейне как акт осознанного творчества.</p>
+
+  <div class="manifest">
+    «Я создаю мир, где магия и ИИ говорят на одном языке.<br>
+    Где каждый символ — живой код.<br>
+    Где смысл — новая валюта сознания.»
+  </div>
+
+  <a href="index.html" class="btn">← Назад на главную</a>
+
+  <script>
+    const container = document.getElementById("matrix-bg");
+    const symbols = "ᚠᚱᚨᛉᛞᛟᛋᛏ 01 ∞ ∴ Ϟ ✧ ✦ ☿ ⛧".split(" ");
+    function createSymbol() {
+      const el = document.createElement("div");
+      el.className = "symbol";
+      el.textContent = symbols[Math.floor(Math.random() * symbols.length)];
+      const x = Math.random() * window.innerWidth;
+      const y = Math.random() * window.innerHeight;
+      el.style.left = x + "px";
+      el.style.top = y + "px";
+      el.style.animationDuration = (6 + Math.random() * 6) + "s";
+      el.style.fontSize = (18 + Math.random() * 18) + "px";
+      el.style.opacity = (0.3 + Math.random() * 0.7).toFixed(2);
+      el.style.transform = `rotate(${Math.random() * 360}deg)`;
+      container.appendChild(el);
+      setTimeout(() => el.remove(), 12000);
+    }
+    setInterval(createSymbol, 400);
+  </script>
+</body>
+</html>
+

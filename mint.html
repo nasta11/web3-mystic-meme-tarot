@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WitchWeb3 — Минтинг NFT</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.umd.min.js"></script>
+</head>
+<body>
+
+<nav>
+  <div class="logo">✨ WitchWeb3</div>
+  <div class="nav-links">
+    <a href="index.html">Главная</a>
+    <a href="mint.html">Минтинг</a>
+    <a href="cards.html">Мемные карты</a>
+    <a href="about.html">О проекте</a>
+  </div>
+</nav>
+
+<section id="hero">
+  <h1>🔮 Минтинг NFT</h1>
+  <p>Подключи кошелёк и создай свой ритуал в блокчейне Polygon.</p>
+  <button id="connectWallet">🪄 Подключить MetaMask</button>
+  <button id="mintNFT" disabled>✨ Минтить за 0.01 MATIC</button>
+</section>
+
+<footer>© 2025 WitchWeb3</footer>
+
+<script>
+let provider, signer, contract;
+
+async function connectWallet() {
+  if (window.ethereum) {
+    provider = new ethers.providers.Web3Provider(window.ethereum);
+    await provider.send("eth_requestAccounts", []);
+    signer = provider.getSigner();
+    document.getElementById("mintNFT").disabled = false;
+    alert("🪄 Кошелёк подключён!");
+  } else {
+    alert("Установи MetaMask, чтобы продолжить 🦊");
+  }
+}
+
+document.getElementById("connectWallet").onclick = connectWallet;
+
+document.getElementById("mintNFT").onclick = async () => {
+  const CONTRACT_ADDRESS = "0x0000000000000000000000000000000000000000"; // 👈 потом заменим на твой адрес контракта
+  const ABI = [
+    {
+      "inputs": [
+        { "internalType": "address", "name": "recipient", "type": "address" },
+        { "internalType": "string", "name": "tokenURI", "type": "string" }
+      ],
+      "name": "mintNFT",
+      "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ];
+
+  try {
+    contract = new ethers.Contract(CONTRACT_ADDRESS, ABI, signer);
+    const tx = await contract.mintNFT(
+      await signer.getAddress(),
+      "ipfs://QmExampleMetadata"
+    );
+    await tx.wait();
+    alert("✅ NFT успешно заминчен! Проверь свой MetaMask 💫");
+  } catch (err) {
+    alert("⚠️ Ошибка минта: " + err.message);
+  }
+};
+</script>
+
+</body>
+</html>
+

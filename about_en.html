@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>О WitchWeb3</title>
+  <style>
+    body {
+      background: radial-gradient(circle at center, #0a0012, #06000a);
+      color: #d3baff;
+      text-align: center;
+      font-family: 'Orbitron', sans-serif;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+
+    h2 {
+      color: #c79bff;
+      text-shadow: 0 0 25px #b967ff;
+      margin-top: 60px;
+      font-size: 32px;
+      letter-spacing: 2px;
+    }
+
+    .lang-switch {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background: linear-gradient(90deg, #7f00ff, #e100ff);
+      color: white;
+      padding: 8px 14px;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: bold;
+      font-family: 'Orbitron', sans-serif;
+      transition: 0.3s;
+    }
+    .lang-switch:hover {
+      box-shadow: 0 0 20px #d37fff;
+      transform: scale(1.05);
+    }
+
+    .portrait-container {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 20px auto 10px;
+      z-index: 1;
+      transform: scale(0.9);
+      animation: float 6s ease-in-out infinite;
+    }
+
+    .portrait {
+      width: 310px;
+      max-width: 65vw;
+      height: auto;
+      border-radius: 50%;
+      box-shadow: 0 0 70px #b967ff, 0 0 130px #7f00ff;
+      animation: fadeIn 3s ease-in-out forwards, pulse 7s infinite ease-in-out;
+      opacity: 0;
+    }
+
+    .aura {
+      position: absolute;
+      top: -15%;
+      left: -15%;
+      width: 130%;
+      height: 130%;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(185,103,255,0.25), transparent 80%);
+      filter: blur(80px);
+      animation: auraGlow 6s infinite alternate;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+      margin: 10px auto;
+      width: 70%;
+      color: #e5ccff;
+      transition: text-shadow 0.3s ease;
+    }
+    p:hover {
+      text-shadow: 0 0 15px #b967ff, 0 0 25px #7f00ff;
+    }
+
+    .highlight {
+      color: #b967ff;
+      text-shadow: 0 0 12px #b967ff;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 10px 20px;
+      background: linear-gradient(90deg, #7f00ff, #e100ff);
+      color: white;
+      text-decoration: none;
+      border-radius: 15px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      box-shadow: 0 0 25px #d37fff;
+      transform: scale(1.05);
+    }
+
+    @keyframes fadeIn {
+      to { opacity: 1; }
+    }
+    @keyframes pulse {
+      0%, 100% { box-shadow: 0 0 60px #b967ff, 0 0 120px #7f00ff; }
+      50% { box-shadow: 0 0 90px #d37fff, 0 0 150px #b967ff; }
+    }
+    @keyframes auraGlow {
+      0% { opacity: 0.7; transform: scale(1); }
+      100% { opacity: 1; transform: scale(1.05); }
+    }
+    @keyframes float {
+      0%, 100% { transform: scale(0.9) translateY(0); }
+      50% { transform: scale(0.92) translateY(-10px); }
+    }
+  </style>
+</head>
+
+<body>
+  <a href="about_en.html" class="lang-switch">🇬🇧 EN</a>
+
+  <h2>О WITCHWEB3</h2>
+
+  <div class="portrait-container">
+    <img src="images/witchweb3-portrait.png" alt="WitchWeb3 Portrait" class="portrait">
+    <div class="aura"></div>
+  </div>
+
+  <p>Я — дизайнер смыслов в мире <span class="highlight">Web3</span>.</p>
+  <p>Я создаю ритуалы, где код становится магией, а <span class="highlight">NFT</span> — зеркалом души творца.</p>
+  <p>Мой путь — соединить эстетику, технологию и философию, чтобы дать новое определение реальности.</p>
+  <p><span class="highlight">WitchWeb3</span> — это портал, где каждый может оставить свой след в блокчейне как акт осознанного творчества.</p>
+
+  <a href="index.html" class="btn">← Назад на Главную</a>
+</body>
+</html>
+

@@ -71,15 +71,21 @@
 
 ---
 
-### 🖼️ Gallery Preview
+### 🪄 Gallery Preview
+
+<p align="center" style="background-color:#0b0b12; padding:20px; border-radius:16px;">
+  <img src="images/meme/meme.jpg" width="110" style="border-radius:12px; margin:6px; box-shadow:0 0 12px #b08cff;">
+  <img src="images/meme/rug.jpg" width="110" style="border-radius:12px; margin:6px; box-shadow:0 0 12px #ff2b70;">
+  <img src="images/coder/wallet.jpg" width="110" style="border-radius:12px; margin:6px; box-shadow:0 0 12px #00f0ff;">
+  <img src="images/mystic/bridge.jpg" width="110" style="border-radius:12px; margin:6px; box-shadow:0 0 12px #8b5cff;">
+  <img src="images/mystic/seed.jpg" width="110" style="border-radius:12px; margin:6px; box-shadow:0 0 12px #ffc700;">
+</p>
 
 <p align="center">
-  <img src="./images/meme/the_meme.png" width="100">
-  <img src="./images/mystic/the_seed.png" width="100">
-  <img src="./images/coder/the_wallet.png" width="100">
-  <img src="./images/mystic/the_bridge.png" width="100">
-  <img src="./images/meme/the_rug.png" width="100">
+  <a href="https://witchweb3.com/decks.html" target="_blank">🌐 Explore full interactive version</a>
 </p>
+
+
 
 > 🔮 Explore full interactive version: [decks.html](./decks.html)
 

@@ -1,32 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>🜏 Mystic Meme Tarot — Gallery</title>
-  <link rel="stylesheet" href="style.css">
+  <title>🜏 Мистическое Мем-Таро — Живая Колода</title>
   <style>
     body {
-      background-color: #0b0b0f;
-      color: #e0e0e0;
-      font-family: "Courier New", monospace;
-      text-align: center;
       margin: 0;
-      padding: 40px;
+      background: radial-gradient(circle at center, #0a0014 0%, #020005 100%);
+      font-family: "JetBrains Mono", monospace;
+      color: #e8d8ff;
+      text-align: center;
+      overflow-x: hidden;
     }
-    h1 {
-      font-size: 2em;
-      margin-bottom: 20px;
+    header {
+      background: url("images/witchweb3-portrait.png") no-repeat center top/cover;
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      padding-bottom: 60px;
+      box-shadow: 0 0 60px rgba(190, 120, 255, 0.5);
+      border-bottom: 2px solid rgba(255,255,255,0.1);
     }
+    header h1 {
+      font-size: 2.4em;
+      color: #e3baff;
+      text-shadow: 0 0 20px #c780ff;
+      margin: 0;
+    }
+    header p {
+      font-style: italic;
+      opacity: 0.8;
+      font-size: 1em;
+      margin-top: 10px;
+    }
+
     .deck {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-      gap: 20px;
+      gap: 30px;
       justify-items: center;
+      padding: 50px 20px;
     }
+
     .card {
-      width: 160px;
-      height: 260px;
+      width: 180px;
+      height: 280px;
       perspective: 1000px;
       cursor: pointer;
     }
@@ -44,46 +65,65 @@
       position: absolute;
       width: 100%;
       height: 100%;
-      border-radius: 12px;
+      border-radius: 14px;
       backface-visibility: hidden;
-      box-shadow: 0 0 20px rgba(255,255,255,0.1);
+      box-shadow: 0 0 25px rgba(200, 150, 255, 0.25);
     }
     .front {
       background-size: cover;
       background-position: center;
+      border: 1px solid rgba(255,255,255,0.1);
     }
     .back {
-      background: #111;
+      background: linear-gradient(180deg, #10001f, #20003f);
       transform: rotateY(180deg);
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      padding: 15px;
+      padding: 20px;
       font-size: 0.9em;
-      color: #ccc;
+      color: #d9cfff;
+      border: 1px solid rgba(255,255,255,0.1);
+      box-shadow: 0 0 20px rgba(180, 100, 255, 0.3);
+    }
+    .back h3 {
+      margin: 0;
+      font-size: 1.1em;
+      color: #e7b3ff;
+    }
+    .back p {
+      margin-top: 10px;
+      font-style: italic;
+      opacity: 0.9;
     }
     footer {
-      margin-top: 50px;
+      margin-top: 40px;
       font-size: 0.8em;
-      color: #666;
+      opacity: 0.6;
     }
   </style>
 </head>
 <body>
-  <h1>🔮 Mystic Meme Tarot — Interactive Deck</h1>
-  <p>Click or hover cards to reveal their hidden meaning.</p>
+
+  <header>
+    <h1>🔮 Мистическое Мем-Таро</h1>
+    <p>Каждая карта — это фрагмент мифа Web3, зеркало кода, магии и смысла.</p>
+  </header>
+
   <div class="deck" id="deck"></div>
 
-  <footer>© 2025 WitchWeb3 • web3-mystic-meme-tarot</footer>
+  <footer>© 2025 WitchWeb3 • Между магией и машиной</footer>
 
   <script>
     const cards = [
-      { name: "The Meme", type: "Meme", meaning: "Chaos as code", img: "images/meme/the_meme.png" },
-      { name: "The Rug", type: "Meme", meaning: "Illusion of stability", img: "images/meme/the_rug.png" },
-      { name: "The Wallet", type: "Coder", meaning: "Access and identity", img: "images/coder/the_wallet.png" },
-      { name: "The Bridge", type: "Mystic", meaning: "Transition between worlds", img: "images/mystic/the_bridge.png" },
-      { name: "The Seed", type: "Mystic", meaning: "Creation, origin", img: "images/mystic/the_seed.png" },
+      { name: "Мем", meaning: "Хаос как код — смысл рождается из энтропии.", img: "images/meme/meme.jpg" },
+      { name: "Раг", meaning: "Иллюзия стабильности — остерегайся утешения цикла.", img: "images/meme/rug.jpg" },
+      { name: "Кошелёк", meaning: "Доступ и идентичность — ты есть свой приватный ключ.", img: "images/coder/wallet.jpg" },
+      { name: "Мост", meaning: "Переход между мирами — код это новый ритуал.", img: "images/mystic/bridge.jpg" },
+      { name: "Семя", meaning: "Начало, зарождение — каждый блок начинается с искры.", img: "images/mystic/seed.jpg" },
+      { name: "Коммит", meaning: "Обещание, вписанное в вечность.", img: "images/mystic/commit.jpg" },
+      { name: "Слияние", meaning: "Единство сетей, слияние смыслов.", img: "images/mystic/merge.jpg" }
     ];
 
     const deck = document.getElementById("deck");
@@ -101,6 +141,7 @@
       deck.appendChild(el);
     });
   </script>
+
 </body>
 </html>
 

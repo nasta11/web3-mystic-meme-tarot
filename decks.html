@@ -13,135 +13,110 @@
       text-align: center;
       overflow-x: hidden;
     }
+
+    /* 🌙 Баннер */
     header {
-      background: url("images/witchweb3-portrait.png") no-repeat center top/cover;
-      height: 400px;
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-end;
-      align-items: center;
-      padding-bottom: 60px;
-      box-shadow: 0 0 60px rgba(190, 120, 255, 0.5);
-      border-bottom: 2px solid rgba(255,255,255,0.1);
-    }
-    header h1 {
-      font-size: 2.4em;
-      color: #e3baff;
-      text-shadow: 0 0 20px #c780ff;
-      margin: 0;
-    }
-    header p {
-      font-style: italic;
-      opacity: 0.8;
-      font-size: 1em;
-      margin-top: 10px;
-    }
-
-    .deck {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-      gap: 30px;
-      justify-items: center;
-      padding: 50px 20px;
-    }
-
-    .card {
-      width: 180px;
-      height: 280px;
-      perspective: 1000px;
-      cursor: pointer;
-    }
-    .inner {
       position: relative;
-      width: 100%;
-      height: 100%;
-      transition: transform 0.8s;
-      transform-style: preserve-3d;
-    }
-    .card:hover .inner {
-      transform: rotateY(180deg);
-    }
-    .front, .back {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      border-radius: 14px;
-      backface-visibility: hidden;
-      box-shadow: 0 0 25px rgba(200, 150, 255, 0.25);
-    }
-    .front {
-      background-size: cover;
-      background-position: center;
-      border: 1px solid rgba(255,255,255,0.1);
-    }
-    .back {
-      background: linear-gradient(180deg, #10001f, #20003f);
-      transform: rotateY(180deg);
+      height: 400px;
+      background: url("images/banner-moon.jpg") no-repeat center top/cover;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      animation: glow 6s ease-in-out infinite alternate;
+      filter: brightness(1.1) saturate(1.3);
+    }
+
+    @keyframes glow {
+      from { filter: brightness(0.9) saturate(1.0); }
+      to { filter: brightness(1.3) saturate(1.4); }
+    }
+
+    /* Туман под текстом */
+    header::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100px;
+      background: linear-gradient(to bottom, transparent, rgba(10, 0, 20, 0.9));
+    }
+
+    h1 {
+      position: relative;
+      font-size: 2.4em;
+      text-shadow: 0 0 12px #c57cff, 0 0 30px #9b59ff;
+      margin: 0;
+    }
+
+    p.subtitle {
+      position: relative;
+      font-size: 1.1em;
+      opacity: 0.9;
+      margin-top: 8px;
+    }
+
+    /* Колода */
+    main {
+      padding: 50px 5%;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 25px;
+      justify-items: center;
+    }
+
+    .card {
+      width: 180px;
+      height: 300px;
+      border-radius: 12px;
+      box-shadow: 0 0 25px rgba(255, 255, 255, 0.08);
+      background-size: cover;
+      background-position: center;
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-8px) scale(1.05);
+      box-shadow: 0 0 30px rgba(180, 100, 255, 0.4);
+    }
+
+    footer {
+      margin-top: 60px;
       padding: 20px;
       font-size: 0.9em;
-      color: #d9cfff;
-      border: 1px solid rgba(255,255,255,0.1);
-      box-shadow: 0 0 20px rgba(180, 100, 255, 0.3);
-    }
-    .back h3 {
-      margin: 0;
-      font-size: 1.1em;
-      color: #e7b3ff;
-    }
-    .back p {
-      margin-top: 10px;
-      font-style: italic;
-      opacity: 0.9;
-    }
-    footer {
-      margin-top: 40px;
-      font-size: 0.8em;
-      opacity: 0.6;
+      color: #777;
     }
   </style>
 </head>
 <body>
-
   <header>
     <h1>🔮 Мистическое Мем-Таро</h1>
-    <p>Каждая карта — это фрагмент мифа Web3, зеркало кода, магии и смысла.</p>
+    <p class="subtitle">Каждая карта — это фрагмент мифа Web3, зеркало кода, магии и смысла.</p>
   </header>
 
-  <div class="deck" id="deck"></div>
+  <main id="deck"></main>
 
-  <footer>© 2025 WitchWeb3 • Между магией и машиной</footer>
+  <footer>© 2025 WitchWeb3 • web3-mystic-meme-tarot</footer>
 
   <script>
     const cards = [
-      { name: "Мем", meaning: "Хаос как код — смысл рождается из энтропии.", img: "images/meme/meme.jpg" },
-      { name: "Раг", meaning: "Иллюзия стабильности — остерегайся утешения цикла.", img: "images/meme/rug.jpg" },
-      { name: "Кошелёк", meaning: "Доступ и идентичность — ты есть свой приватный ключ.", img: "images/coder/wallet.jpg" },
-      { name: "Мост", meaning: "Переход между мирами — код это новый ритуал.", img: "images/mystic/bridge.jpg" },
-      { name: "Семя", meaning: "Начало, зарождение — каждый блок начинается с искры.", img: "images/mystic/seed.jpg" },
-      { name: "Коммит", meaning: "Обещание, вписанное в вечность.", img: "images/mystic/commit.jpg" },
-      { name: "Слияние", meaning: "Единство сетей, слияние смыслов.", img: "images/mystic/merge.jpg" }
+      { name: "The Meme", img: "images/meme/meme.jpg" },
+      { name: "The Rug", img: "images/meme/rug.jpg" },
+      { name: "The Wallet", img: "images/coder/wallet.jpg" },
+      { name: "The Bridge", img: "images/mystic/bridge.jpg" },
+      { name: "The Seed", img: "images/mystic/seed.jpg" },
+      { name: "The Commit", img: "images/mystic/commit.jpg" }
     ];
 
     const deck = document.getElementById("deck");
     cards.forEach(card => {
       const el = document.createElement("div");
       el.className = "card";
-      el.innerHTML = `
-        <div class="inner">
-          <div class="front" style="background-image:url('${card.img}')"></div>
-          <div class="back">
-            <h3>${card.name}</h3>
-            <p>${card.meaning}</p>
-          </div>
-        </div>`;
+      el.style.backgroundImage = `url('${card.img}')`;
       deck.appendChild(el);
     });
   </script>
-
 </body>
 </html>
 

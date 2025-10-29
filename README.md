@@ -1,6 +1,6 @@
 ![Banner](./images/banner-moon-mirror.gif)
 
-<<<<<<< HEAD
+ HEAD
 # 🔮 Web3 Mystic Meme Tarot
 
 ![CI](https://github.com/nasta11/web3-mystic-meme-tarot/actions/workflows/ci.yml/badge.svg)
@@ -21,13 +21,13 @@
 - 🔮 Символический инструмент для поиска смысла  
 
 ---
-=======
+
 # Web3 Mystic Meme Tarot / Веб3 Мистическая Мемная Таро  
 ## 🌀 Summon the chaos of Web3 through 21 mystic memes — your tarot for degens and devs  
 ## Призывайте хаос Web3 через 21 мистический мем — ваше таро для дегенов и девов  
 
 ---
->>>>>>> 70ce866 (🪄 Новый билингвальный README: баннер, roadmap, badges)
+ 70ce866 (🪄 Новый билингвальный README: баннер, roadmap, badges)
 
 ### ✨ About the Project / О проекте  
 **EN:** Web3 Mystic Meme Tarot — a deck of 21 AI-generated cards combining memes, magic and blockchain symbolism.  
@@ -35,11 +35,11 @@
 
 ---
 
-<<<<<<< HEAD
+ HEAD
 ---
 
 ## 🔮 Mystic (7)
-=======
+
 ### 🎴 The Deck / Колода  
 | № | Card Name | Type | Meaning |
 |:-:|:--|:--|:--|
@@ -49,20 +49,20 @@
 | 4 | The Bridge | Mystic | Transition between worlds |
 | 5 | The Rug | Meme | Illusion of stability |
 | ... | ... | ... | ... |
->>>>>>> 70ce866 (🪄 Новый билингвальный README: баннер, roadmap, badges)
+ 70ce866 (🪄 Новый билингвальный README: баннер, roadmap, badges)
 
 ---
 
-<<<<<<< HEAD
+ HEAD
 ---
 
 ## 👩‍💻 Coder (7)
-=======
+
 ### 🚀 Roadmap / Дорожная карта  
 - **v1:** NFT Minting of the deck  
 - **v2:** AI Card Spreads (intelligent readings)  
 - **v3:** DAO governance, user-generated cards  
->>>>>>> 70ce866 (🪄 Новый билингвальный README: баннер, roadmap, badges)
+ 70ce866 (🪄 Новый билингвальный README: баннер, roadmap, badges)
 
 ---
 
